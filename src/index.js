@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
 
     // 1. Check if the path is exactly "/loader"
-    if (url.pathname === "/loader") {
+    if (url.pathname === "/loader/autotypecodes") {
       const githubRawUrl = "https://raw.githubusercontent.com/xyrcheatz/Wakehub-Auto-Redeemer/refs/heads/main/main.lua";
 
       try {
