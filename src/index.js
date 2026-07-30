@@ -2,7 +2,7 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
-    // 1. Check if the path is exactly "/loader"
+    // 1. Check if the path is exactly "/loader/autotypecodes"
     if (url.pathname === "/loader/autotypecodes") {
       const githubRawUrl = "https://raw.githubusercontent.com/xyrcheatz/Wakehub-Auto-Redeemer/refs/heads/main/main.lua";
 
